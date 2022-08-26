@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    padding: 0;
+    margin: 0;
+}
+
+footer {
+    display: flex;
+    position: fixed;
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    background-color: black;
+    top: 0;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 50px;
+    margin-left: 10px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+
+}
+
+li a {
+    color: seashell;
+    margin-right: 10px;
+}
+
+#mission {
+    display: flex;
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*1yrz6jm*_ga*MzM4MDYwMTUyLjE2NTA3Mzc4ODM.*_ga_3LRZM6TM9L*MTY2MTQ5Mzk4NS4yNDQuMS4xNjYxNDk0MDIxLjI0LjAuMA..);
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: 70px;
+    height: 700px;
+    width: 1200px;
+    justify-content: center;
+    align-items: center;
+}
+
+#mission div {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+#mission div h2 {
+    margin-bottom: 0;
+}
+
+#featured {
+    text-align: center;
+    margin-top: 100px;
+}
+
+h4 {
+    text-align: center;
+}
+
+.tea-image img{
+    height: 200px;
+    width: 300px;
+}
+
+.tea-image h4 {
+    margin-top: 10px;
+}
+
+.tea-image {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tea-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#locations {
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*1axl918*_ga*MzM4MDYwMTUyLjE2NTA3Mzc4ODM.*_ga_3LRZM6TM9L*MTY2MTQ5Mzk4NS4yNDQuMS4xNjYxNDk0MDIxLjI0LjAuMA..);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: 1200px;
+    margin: 100px auto 0;
+}
+
+#locations h2 {
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 25px;
+}
+.locs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.location {
+    background-color: black;
+    opacity: 1;
+    width: 300px;
+    text-align: center;
+    margin: 0 20px;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.location p {
+    margin: 50px auto;
+}
+
+.last {
+    text-align: center;
+    height: 200px;
+}
+
+h5 {
+    padding-left: 20px;
+}
