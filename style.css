@@ -8,7 +8,7 @@ body {
     margin: 0;
 }
 
-footer {
+header {
     display: flex;
     position: fixed;
     border-bottom: 1px solid seashell;
